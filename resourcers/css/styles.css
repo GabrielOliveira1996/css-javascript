@@ -1,0 +1,114 @@
+
+@keyframes neon-pulso {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.8), 0 0 80px rgba(0, 255, 255, 0.8), 0 0 100px rgba(0, 255, 255, 0.8), 0 0 120px rgba(0, 255, 255, 0.8);
+    }
+}
+  
+.light-effect{
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 
+                    0 0 10px rgba(255, 255, 255, 0.3), 
+                    0 0 15px rgba(255, 255, 255, 0.3), 
+                    0 0 20px rgba(0, 255, 255, 0.3), 
+                    0 0 25px rgba(0, 255, 255, 0.3), 
+                    0 0 30px rgba(0, 255, 255, 0.3);
+    animation: neon-pulso 4s linear infinite;
+}
+
+@keyframes effect-blackout-c {
+    0% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    3%, 21% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    22% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    27% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    28% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    29%, 30% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    31%, 67% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    68%, 70% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    71%, 100% {
+        color: #fff; /* Texto fica visível e branco por 10% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);
+    }
+}
+  
+.text-blackout-c {
+    color: #222;
+    animation: effect-blackout-c 8s linear infinite; /* 2s de duração, repetição infinita */
+}
+
+@keyframes effect-blackout-e {
+    0% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    1%, 8% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    9%, 29% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    30% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    31%, 33% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    34%, 50% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    51%, 87% {
+        color: #fff; /* Texto fica visível e branco por 50% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);;
+    }
+    88%, 90% {
+        color: #383838; /* Texto fica transparente por 20% da animação */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    91%, 100% {
+        color: #fff; /* Texto fica visível e branco por 10% da animação */
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 50px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.8);
+    }
+}
+  
+.text-blackout-e {
+    color: #222;
+    animation: effect-blackout-e 8s linear infinite; 
+}
+
+.text-blackout-m {
+    color: #222;
+}
+
